@@ -1,0 +1,21 @@
+:root {
+  --o-application-header-grid: 8px;
+  --o-application-header-color: #FFF;
+  --o-application-header-background-color: #000;
+
+  --o-application-header-font-size: 12px;
+  --o-application-header-font-weight: bold;
+  --o-application-header-font-family: 'Helvetica Neue Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --o-application-header-font-weight: bold;
+
+  --o-application-header-divider-color: #7C7F83;
+
+  --o-application-header-height: 25px;
+  --o-application-header-display: flex;
+  --o-application-header-align: stretch;
+  --o-application-header-justify: space-between;
+  --o-application-header-position: static;
+  --o-application-header-z-index: 1010;
+
+  --o-application-header-wrap: calc(var(--o-application-header-grid) * 3);
+}

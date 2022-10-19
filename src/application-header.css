@@ -1,0 +1,64 @@
+.o-application-header {
+  background-color: var(--o-application-header-background-color);
+
+  height: var(--o-application-header-height);
+  position: var(--o-application-header-position);
+  z-index: var(--o-application-header-z-index);
+
+  width: 100%;
+  display: var(--o-application-header-display);
+  align-items: var(--o-application-header-align);
+  justify-content: var(--o-application-header-justify);
+
+  padding-left: var(--o-application-header-wrap);
+  padding-right: var(--o-application-header-wrap);
+}
+
+.o-application-header > * {
+  display: flex;
+  align-items: stretch;
+}
+
+.o-application-header,
+.o-application-header a,
+.o-application-header a:visited {
+  color: var(--o-application-header-color);
+  font-size: var(--o-application-header-font-size);
+  font-family: var(--o-application-header-font-family);
+  font-weight: var(--o-application-header-font-weight);
+}
+
+.o-application-header a,
+.o-application-header a:visited {
+  color: inherit;
+}
+
+.o-application-header__link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.o-application-header__logo {
+  display: block;
+}
+
+.o-application-header__divider {
+  color: transparent;
+  width: 0px;
+  overflow: hidden;
+
+  border-left: 1px solid var(--o-application-header-divider-color);
+  margin-left: var(--o-application-header-grid);
+  margin-right: var(--o-application-header-grid);
+}
+
+@media screen and (min-width: 960px) {
+  .o-application-header__divider {
+    margin-left: calc(var(--o-application-header-grid) * 2);
+    margin-right: calc(var(--o-application-header-grid) * 2);
+  }
+}
+
+.o-application-header__name {
+  line-height: var(--o-application-header-height);
+}

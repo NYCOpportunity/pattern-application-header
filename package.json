@@ -1,0 +1,15 @@
+{
+  "name": "@nycopportunity/pattern-application-header",
+  "version": "1.0.0",
+  "description": "Shared Application Header for the NYC Opportunity UI Patterns Framework. Currently a work–in-progress.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYCOpportunity/pattern-application-header.git"
+  },
+  "author": "NYC Opportunity <products@nycopportunity.nyc.gov>",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/NYCOpportunity/pattern-application-header/issues"
+  },
+  "homepage": "https://github.com/NYCOpportunity/pattern-application-header#readme"
+}
