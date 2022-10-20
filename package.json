@@ -1,6 +1,6 @@
 {
   "name": "@nycopportunity/pattern-application-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared Application Header for the NYC Opportunity UI Patterns Framework. Currently a work–in-progress.",
   "repository": {
     "type": "git",
