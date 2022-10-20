@@ -17,5 +17,17 @@
   --o-application-header-position: static;
   --o-application-header-z-index: 1010;
 
-  --o-application-header-wrap: calc(var(--o-application-header-grid) * 3);
+  --o-application-header-wrap: calc(var(--o-application-header-grid) * 1);
 }
+
+@media screen and (min-width: 480px) {
+  :root {
+    --o-application-header-wrap: calc(var(--o-application-header-grid) * 2);
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  :root {
+    --o-application-header-wrap: calc(var(--o-application-header-grid) * 3);
+  }
+} */
